@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.lemonclient.addon.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinCrystalAura",
+    "MixinFont",
+    "MixinWindow"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
